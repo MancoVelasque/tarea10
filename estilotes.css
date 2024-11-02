@@ -1,0 +1,66 @@
+#cajon{
+border: 2px solid red; 
+width: 100%;  
+height: 100%; 
+display: grid;
+gap: 20px;
+text-align: center;
+padding: 20px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: center;
+}
+.caja{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:sans-serif;
+color: rgb(7, 29, 68);
+border: 2px solid rgb(22, 13, 102);
+} 
+
+#cajon .uno{
+background-color: rgb(114, 199, 34);
+grid-column: 1/1 ;
+grid-row: 1/30;
+}
+.dos{
+background-color: rgb(114, 199, 34);
+grid-column: 2/4 ;
+grid-row: 1/10;
+}
+.tres{
+background-color: rgb(247, 70, 123);
+grid-column: 4/4 ;
+grid-row: 1/10;
+
+}
+.cuatro{
+background-color: rgb(114, 199, 34);
+grid-column: 4/4 ;
+grid-row: 30/10;
+}
+
+.cinco{
+background-color: rgb(245, 230, 94);
+grid-column: 2/3 ;
+grid-row: 20/10;
+}     
+
+
+.seis{
+background-color: rgb(245, 230, 94);
+grid-column: 3/4 ;
+grid-row: 30/20;
+
+}
+.siete{
+background-color: rgb(247, 70, 123);
+grid-column: 3/4 ;
+grid-row: 20/10;
+}
+.ocho{
+background-color: rgb(247, 70, 123); 
+grid-column: 2/3 ;
+grid-row: 20/30;
+
+}
